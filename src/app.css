@@ -20,6 +20,7 @@ html {
 	);
 	background-attachment: fixed;
 	transition: background, 100ms;
+	height: 100dvh;
 }
 body {
 	color: #e4e9ea;

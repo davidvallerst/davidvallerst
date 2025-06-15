@@ -23,7 +23,7 @@ body {
 	background-attachment: fixed;
 	/* background-size: 105vh; */
 	transition: background, 100ms;
-	height: 100lvh;
+	min-height: 100lvh;
 	color: #e4e9ea;
 }
 h1 {

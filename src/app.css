@@ -3,7 +3,7 @@
 :root {
 	--starting-gradient-color: #000004;
 	--ending-gradient-color: #583885;
-	--last-gradient-color: #5773b8;
+	--last-gradient-color: #cc7eee;
 }
 
 html {
@@ -13,11 +13,6 @@ html {
 	font-style: normal;
 	font-size: clamp(12px, 1vw + 0.3rem, 16px);
 	scroll-behavior: smooth;
-	background: linear-gradient(
-		140deg,
-		var(--starting-gradient-color) 10%,
-		var(--ending-gradient-color)
-	);
 }
 body {
 	background: linear-gradient(
@@ -26,7 +21,6 @@ body {
 		var(--ending-gradient-color)
 	);
 	background-attachment: fixed;
-	background-size: 105vh;
 	transition: background, 100ms;
 	min-height: 100vh;
 	color: #e4e9ea;

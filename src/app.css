@@ -14,7 +14,11 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	background: linear-gradient(140deg, var(--starting-gradient-color), var(--ending-gradient-color));
+	background: linear-gradient(
+		140deg,
+		var(--starting-gradient-color) 10%,
+		var(--ending-gradient-color)
+	);
 	background-attachment: fixed;
 	background-position: center;
 	min-height: 100dvh;

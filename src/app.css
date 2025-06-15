@@ -18,9 +18,12 @@ html {
 		var(--starting-gradient-color) 10%,
 		var(--ending-gradient-color)
 	);
+	transition: background, 20ms;
+	background-attachment: fixed;
 }
 body {
 	position: relative;
+	min-height: 100dvh;
 	color: #e4e9ea;
 }
 

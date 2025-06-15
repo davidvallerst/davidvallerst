@@ -12,10 +12,16 @@
 	}
 	function rgbToHex(r: number, g: number, b: number) {
 		// Validar los valores de entrada
-		if (r < 0 || r > 255 || g < 0 || g > 255 || b < 0 || b > 255) {
-			throw new Error('Los valores RGB deben estar entre 0 y 255');
-		}
 
+		if (r < 0) {
+			r = 0;
+		}
+		if (g < 0) {
+			g = 0;
+		}
+		if (b < 0) {
+			b = 0;
+		}
 		// Convertir cada componente a hexadecimal y asegurar 2 dígitos
 		const toHex = (value: number) => {
 			const hex = value.toString(16);
@@ -31,6 +37,7 @@
 		const r = Math.round(fromColor[0] + (toColor[0] - fromColor[0]) * extrapolationRatio);
 		const g = Math.round(fromColor[1] + (toColor[1] - fromColor[2]) * extrapolationRatio);
 		const b = Math.round(fromColor[2] + (toColor[2] - fromColor[2]) * extrapolationRatio);
+
 		return rgbToHex(r, g, b);
 	}
 	let extrapolationRatio = 0.0;
@@ -44,7 +51,7 @@
 			extrapolationRatio
 		);
 
-		document.body.style.setProperty('--ending-gradient-color', finalColor);
+		document.documentElement.style.setProperty('--ending-gradient-color', finalColor);
 	}
 </script>
 

@@ -19,8 +19,8 @@ html {
 		var(--starting-gradient-color) 10%,
 		var(--ending-gradient-color)
 	);
-	background-attachment: local;
-	min-height: 100vh;
+	background-attachment: fixed;
+	min-height: 110vh;
 	transition: background, 100ms;
 }
 body {

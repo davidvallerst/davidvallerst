@@ -144,7 +144,7 @@
 		content: ' />';
 	}
 	#icons {
-		grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+		grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
 	}
 	p {
 		font-size: 1.4rem;

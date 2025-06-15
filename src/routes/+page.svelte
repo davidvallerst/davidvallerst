@@ -92,15 +92,15 @@
 	</div>
 </section>
 <section style:margin="2rem 0rem 6rem 0rem">
+	<div class="hr"></div>
 	<h2
-		style:margin-block="3rem"
+		style:margin-block="3rem 6rem"
 		style:margin-inline="auto"
 		style:padding-inline="4rem 1rem"
 		style:text-align="center"
 	>
 		Bienvenid@ a mi Portafolio
 	</h2>
-	<div class="hr"></div>
 	<div style:margin-top="2rem" style:padding-inline="6rem">
 		<p>Mi nombre es Elvis David Hernandez Valle</p>
 		<p>
@@ -110,17 +110,17 @@
 	</div>
 </section>
 <section style:margin-top="3rem">
+	<div class="hr"></div>
 	<h2
 		style:margin-left="4rem"
 		style:margin-block="3rem"
 		style:margin-inline="auto"
-		style:margin-top="12rem"
+		style:margin-bottom="3rem"
 		style:padding-inline="4rem 1rem"
 		style:text-align="center"
 	>
 		Proyectos Destacados
 	</h2>
-	<div class="hr"></div>
 	<div class="highlights">
 		<ProyectCard />
 		<ProyectCard />

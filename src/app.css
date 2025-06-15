@@ -21,8 +21,9 @@ body {
 		var(--ending-gradient-color)
 	);
 	background-attachment: fixed;
+	/* background-size: 105vh; */
 	transition: background, 100ms;
-	height: 100dvh;
+	height: 100svh;
 	color: #e4e9ea;
 }
 h1 {

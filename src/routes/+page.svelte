@@ -49,8 +49,8 @@
 			style:border-radius="50%"
 		></div>
 		<div style:display="flex" style:flex-direction="column">
-			<a href="./" style:font-size="1rem" style:color="#eef">Correo → davidvalle.rst@gmail.com</a>
-			<a href="./" style:font-size="1rem" style:color="#eef">Correo → davidvallerst</a>
+			<a href="./" style:font-size="1.2rem" style:color="#6ef">Correo → davidvalle.rst@gmail.com</a>
+			<a href="./" style:font-size="1.2rem" style:color="#6ef">Correo → davidvallerst</a>
 		</div>
 	</header>
 	<h1

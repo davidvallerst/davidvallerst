@@ -12,6 +12,8 @@ html {
 	font-style: normal;
 	font-size: clamp(12px, 1vw + 0.3rem, 16px);
 	scroll-behavior: smooth;
+	overscroll-behavior-y: contain;
+	height: 100%;
 }
 body {
 	background-color: #000;

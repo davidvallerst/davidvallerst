@@ -1,4 +1,4 @@
-/* @import 'tailwindcss'; */
+@import 'tailwindcss';
 @import 'primeicons/primeicons.css';
 :root {
 	--starting-gradient-color: #000004;
@@ -27,7 +27,7 @@ body {
 	);
 	background-attachment: fixed;
 	transition: background, 100ms;
-	min-height: 100vh;
+	min-height: 110vh;
 	color: #e4e9ea;
 }
 h1 {

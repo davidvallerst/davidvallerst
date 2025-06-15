@@ -13,7 +13,6 @@ html {
 	font-size: clamp(12px, 1vw + 0.3rem, 16px);
 	scroll-behavior: smooth;
 	overscroll-behavior-y: contain;
-	height: 100%;
 	background-color: #000;
 	background: linear-gradient(
 		140deg,
@@ -22,11 +21,11 @@ html {
 	);
 	background-attachment: fixed;
 	background-position: center;
-	min-height: 100vh;
+	min-height: 100dvh;
+	transition: background, 100ms;
 }
 body {
 	color: #e4e9ea;
-	transition: background, 100ms;
 }
 h1 {
 	font-size: 3rem;

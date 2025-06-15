@@ -75,15 +75,15 @@
 		style:margin-top="3rem"
 		style:padding-inline="1rem"
 	>
-		<TechIconCard iconColor="#451A5A" iconUrl="./icons/angular.svg" />
-		<TechIconCard iconColor="#06040D" iconUrl="./icons/nestjs.svg" />
-		<TechIconCard iconColor="#EA2D2E" iconUrl="./icons/java.svg" />
-		<TechIconCard iconColor="#70AD51" iconUrl="./icons/spring.svg" />
-		<TechIconCard iconColor="#151515" iconUrl="./icons/sql.svg" />
-		<TechIconCard iconColor="#EFF6FF" iconUrl="./icons/golang.svg" />
-		<TechIconCard iconColor="#000000" iconUrl="./icons/http.svg" />
-		<TechIconCard iconColor="#2496ED" iconUrl="./icons/docker.svg" />
-		<TechIconCard iconColor="#DE4C36" iconUrl="./icons/git.svg" />
+		<TechIconCard iconUrl="./icons/angular.svg" />
+		<TechIconCard iconUrl="./icons/nestjs.svg" />
+		<TechIconCard iconUrl="./icons/java.svg" />
+		<TechIconCard iconUrl="./icons/spring.svg" />
+		<TechIconCard iconUrl="./icons/sql.svg" />
+		<TechIconCard iconUrl="./icons/golang.svg" />
+		<TechIconCard iconUrl="./icons/http.svg" />
+		<TechIconCard iconUrl="./icons/docker.svg" />
+		<TechIconCard iconUrl="./icons/git.svg" />
 	</div>
 </section>
 <section style:margin="2rem 0rem 6rem 0rem">

@@ -49,8 +49,8 @@
 			style:border-radius="50%"
 		></div>
 		<div style:display="flex" style:flex-direction="column">
-			<a href="./" style:font-size="1.2rem" style:color="#6ef">Correo → davidvalle.rst@gmail.com</a>
-			<a href="./" style:font-size="1.2rem" style:color="#6ef">Correo → davidvallerst</a>
+			<a href="./" style:font-size="1.2rem" style:color="#def">Correo → davidvalle.rst@gmail.com</a>
+			<a href="./" style:font-size="1.2rem" style:color="#def">Correo → davidvallerst</a>
 		</div>
 	</header>
 	<h1
@@ -122,11 +122,11 @@
 		<ProyectCard />
 	</div>
 </section>
-<div class="cv-section m-16">
+<div class="cv-section p-16">
 	<p>Para mas informacion</p>
 	<h3>
 		Descargar CV ->
-		<a class="text-slate-300" style:font-size="2rem" style:font-weight="bold" href=""
+		<a class="text-slate-300" style:font-size="2rem" style:font-weight="bold" href="./"
 			>curriculum vitae Elvis D Hernandez Valle</a
 		>
 	</h3>

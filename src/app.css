@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 @import 'primeicons/primeicons.css';
 :root {
-	--starting-gradient-color: rgb(0, 0, 4);
+	--starting-gradient-color: #000004;
 	--ending-gradient-color: #583885;
 	--last-gradient-color: #5773b8;
 }

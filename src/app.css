@@ -14,8 +14,6 @@ html {
 	scroll-behavior: smooth;
 	overscroll-behavior-y: contain;
 	height: 100%;
-}
-body {
 	background-color: #000;
 	background: linear-gradient(
 		140deg,
@@ -25,6 +23,8 @@ body {
 	background-attachment: fixed;
 	background-position: center;
 	min-height: 100vh;
+}
+body {
 	color: #e4e9ea;
 	transition: background, 100ms;
 }

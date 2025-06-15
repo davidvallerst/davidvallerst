@@ -111,7 +111,7 @@
 		style:margin-block="3rem"
 		style:margin-inline="auto"
 		style:margin-bottom="3rem"
-		style:padding-inline="4rem 1rem"
+		style:padding-inline="1rem 1rem"
 		style:text-align="center"
 	>
 		Proyectos Destacados

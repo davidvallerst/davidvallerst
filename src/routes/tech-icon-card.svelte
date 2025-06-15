@@ -1,5 +1,5 @@
 <script lang="ts">
-	const { iconUrl, iconColor } = $props();
+	const { iconUrl } = $props();
 </script>
 
 <div id="container">

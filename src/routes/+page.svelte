@@ -8,36 +8,31 @@
 	let objR = 255;
 	let objG = 255;
 	let objB = 255;
-	$effect(() => {
-		function getRGB(key: string) {
-			return getComputedStyle(document.documentElement)
-				.getPropertyValue(key)
-				.replaceAll('rgb', '')
-				.replaceAll('(', '')
-				.replaceAll(')', '')
-				.split(',');
-		}
-		const [rn, gn, bn] = getRGB('--ending-gradient-color');
-		const [rl, gl, bl] = getRGB('--last-gradient-color');
-		r = parseInt(rn);
-		g = parseInt(gn);
-		b = parseInt(bn);
-		objR = parseInt(rl);
-		objG = parseInt(gl);
-		objB = parseInt(bl);
-	});
-	function onScrollChangeColor() {
-		const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+	// $effect(() => {
+	// 	function getRGB(key: string) {
+	// 		return getComputedStyle(document.documentElement).getPropertyValue(key).replaceAll('#', '');
+	// 	}
+	// 	const [rn, gn, bn] = getRGB('--ending-gradient-color');
+	// 	const [rl, gl, bl] = getRGB('--last-gradient-color');
+	// 	r = parseInt(rn);
+	// 	g = parseInt(gn);
+	// 	b = parseInt(bn);
+	// 	objR = parseInt(rl);
+	// 	objG = parseInt(gl);
+	// 	objB = parseInt(bl);
+	// });
+	// function onScrollChangeColor() {
+	// 	const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
 
-		const scrollRatio = window.scrollY / maxScroll;
-		const rn = Math.round(r + (objR - r) * scrollRatio);
-		const gn = Math.round(g + (objG - g) * scrollRatio);
-		const bn = Math.round(b + (objB - b) * scrollRatio);
-		document.body.style.setProperty('--ending-gradient-color', `rgb(${rn},${gn},${bn})`);
-	}
+	// 	const scrollRatio = window.scrollY / maxScroll;
+	// 	const rn = Math.round(r + (objR - r) * scrollRatio);
+	// 	const gn = Math.round(g + (objG - g) * scrollRatio);
+	// 	const bn = Math.round(b + (objB - b) * scrollRatio);
+	// 	document.body.style.setProperty('--ending-gradient-color', `rgb(${rn},${gn},${bn})`);
+	// }
 </script>
 
-<svelte:window on:scroll={onScrollChangeColor} />
+<!-- <svelte:window on:scroll={onScrollChangeColor} /> -->
 <section id="hero">
 	<header
 		style:display="flex"
@@ -80,15 +75,15 @@
 		style:margin-top="3rem"
 		style:padding-inline="1rem"
 	>
-		<TechIconCard iconColor="rgb(0,0,0)" iconUrl="./icons/angular.svg" />
-		<TechIconCard iconColor="rgb(0,0,0)" iconUrl="./icons/nestjs.svg" />
-		<TechIconCard iconColor="rgb(0,0,0)" iconUrl="./icons/java.svg" />
-		<TechIconCard iconColor="rgb(0,0,0)" iconUrl="./icons/spring.svg" />
-		<TechIconCard iconColor="rgb(0,0,0)" iconUrl="./icons/sql.svg" />
-		<TechIconCard iconColor="rgb(0,0,0)" iconUrl="./icons/golang.svg" />
-		<TechIconCard iconColor="rgb(0,0,0)" iconUrl="./icons/http.svg" />
-		<TechIconCard iconColor="rgb(0,0,0)" iconUrl="./icons/docker.svg" />
-		<TechIconCard iconColor="rgb(0,0,0)" iconUrl="./icons/git.svg" />
+		<TechIconCard iconUrl="./icons/angular.svg" />
+		<TechIconCard iconUrl="./icons/nestjs.svg" />
+		<TechIconCard iconUrl="./icons/java.svg" />
+		<TechIconCard iconUrl="./icons/spring.svg" />
+		<TechIconCard iconUrl="./icons/sql.svg" />
+		<TechIconCard iconUrl="./icons/golang.svg" />
+		<TechIconCard iconUrl="./icons/http.svg" />
+		<TechIconCard iconUrl="./icons/docker.svg" />
+		<TechIconCard iconUrl="./icons/git.svg" />
 	</div>
 </section>
 <section style:margin="2rem 0rem 6rem 0rem">

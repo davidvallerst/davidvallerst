@@ -13,17 +13,16 @@ html {
 	font-size: clamp(12px, 1vw + 0.3rem, 16px);
 	scroll-behavior: smooth;
 	background-color: var(--ending-gradient-color);
-}
-body {
-	color: #e4e9ea;
 	background: linear-gradient(
 		140deg,
 		var(--starting-gradient-color) 10%,
 		var(--ending-gradient-color)
 	);
 	background-attachment: fixed;
-	min-height: 110vh;
 	transition: background, 100ms;
+}
+body {
+	color: #e4e9ea;
 }
 h1 {
 	font-size: 3rem;

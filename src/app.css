@@ -20,6 +20,7 @@ html {
 	);
 	transition: background, 20ms;
 	background-attachment: scroll;
+	background-size: cover;
 }
 body {
 	position: relative;

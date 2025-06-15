@@ -1,7 +1,7 @@
 <script lang="ts">
-	const { iconUrl, iconColor = '#33ef44' } = $props();
+	const { iconUrl, iconColor = '#232323' } = $props();
 	function changeGradientColorVariable() {
-		document.documentElement.style.setProperty('--ending-gradient-color', iconColor.toString());
+		document.documentElement.style.setProperty('--last-gradient-color', iconColor.toString());
 	}
 </script>
 

@@ -14,7 +14,7 @@
 		padding: 1rem;
 		position: relative;
 		transition: transform, background-color, 100ms;
-		background-color: #efefef;
+		background-color: var(--color-blue-50);
 	}
 	#container:hover {
 		transform: scale(1.1);

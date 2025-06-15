@@ -19,7 +19,7 @@ html {
 		var(--ending-gradient-color)
 	);
 	transition: background, 20ms;
-	background-attachment: scroll;
+	background-attachment: fixed;
 	background-size: cover;
 }
 body {

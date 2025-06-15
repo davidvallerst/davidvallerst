@@ -13,6 +13,8 @@ html {
 	font-size: clamp(12px, 1vw + 0.3rem, 16px);
 	scroll-behavior: smooth;
 	background-color: var(--ending-gradient-color);
+}
+body {
 	background: linear-gradient(
 		140deg,
 		var(--starting-gradient-color) 10%,
@@ -21,8 +23,6 @@ html {
 	background-attachment: fixed;
 	transition: background, 100ms;
 	height: 100dvh;
-}
-body {
 	color: #e4e9ea;
 }
 h1 {

@@ -2,8 +2,8 @@
 @import 'primeicons/primeicons.css';
 :root {
 	--starting-gradient-color: rgb(0, 0, 4);
-	--ending-gradient-color: rgb(88, 56, 133);
-	--last-gradient-color: rgb(87, 115, 184);
+	--ending-gradient-color: #583885;
+	--last-gradient-color: #5773b8;
 }
 
 html {
@@ -14,6 +14,7 @@ html {
 	scroll-behavior: smooth;
 }
 body {
+	background-color: #000;
 	background: linear-gradient(
 		140deg,
 		var(--starting-gradient-color) 10%,

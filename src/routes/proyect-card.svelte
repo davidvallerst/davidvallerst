@@ -39,7 +39,6 @@
 			border-radius: 0.4rem;
 			padding: 16px;
 			background: linear-gradient(to right, #0007, #271f56);
-			border-right: 2px solid #000;
 			display: flex;
 			align-items: center;
 			justify-content: end;

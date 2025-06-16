@@ -24,7 +24,7 @@
 
 		.h-main {
 			/* background: var(--color-slate-900); */
-			background: #00000022;
+			background: #0007;
 			backdrop-filter: blur(10px);
 
 			margin-inline: auto;
@@ -37,7 +37,7 @@
 			cursor: pointer;
 			border-radius: 0.4rem;
 			padding: 16px;
-			background: var(--color-slate-900);
+			background: #0007;
 			display: flex;
 			align-items: center;
 			justify-content: end;

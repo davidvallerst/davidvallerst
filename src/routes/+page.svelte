@@ -129,7 +129,7 @@
 		>
 	</h3>
 </div>
-<footer style:height="100px"></footer>
+<footer style:height="100px" style:background="#fafeff" style:color="#222"></footer>
 
 <style>
 	#hero {

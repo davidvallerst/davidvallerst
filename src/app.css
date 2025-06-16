@@ -1,8 +1,8 @@
 @import 'tailwindcss';
 @import 'primeicons/primeicons.css';
 :root {
-	--starting-gradient-color: #010117;
-	--ending-gradient-color: #281549;
+	--starting-gradient-color: #71eeff;
+	--ending-gradient-color: #010117;
 	--last-gradient-color: #cc7eee;
 	color: #e4e9ea;
 }
@@ -17,8 +17,8 @@ html {
 	background-color: var(--starting-gradient-color);
 	background: linear-gradient(
 		140deg,
-		var(--starting-gradient-color) 10%,
-		var(--ending-gradient-color) 70%
+		var(--starting-gradient-color) 0%,
+		var(--ending-gradient-color) 30%
 	);
 	transition: background, 20ms;
 }

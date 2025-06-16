@@ -129,7 +129,17 @@
 		>
 	</h3>
 </div>
-<footer style:height="100px" style:background="#fafeff" style:color="#222"></footer>
+<footer
+	style:height="70px"
+	style:padding="20px"
+	style:display="flex"
+	style:align-items="center"
+	style:background="#fafeff"
+	style:color="#222"
+>
+	Made with <div style:font-size="2rem" style:margin-inline="0.5rem">♥</div>
+	Elvis David Hernandez Valle
+</footer>
 
 <style>
 	#hero {

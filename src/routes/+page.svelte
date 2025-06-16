@@ -132,9 +132,6 @@
 <footer style:height="100px"></footer>
 
 <style>
-	#hero {
-		min-height: 100vh;
-	}
 	#presentation-title::before {
 		content: '< ';
 	}
@@ -147,6 +144,9 @@
 	@media (min-width: 900px) {
 		#icons {
 			grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+		}
+		#hero {
+			min-height: 100vh;
 		}
 	}
 	p {

@@ -104,8 +104,8 @@
 </section>
 <section
 	style:padding-top="3rem"
-	style="background:linear-gradient(320deg, var(--starting-gradient-color)
-	,var(--ending-gradient-color) 50%);
+	style="background:linear-gradient(320deg, #66e
+	,var(--ending-gradient-color) 20%);
 	transition: background, 20ms;
 	"
 >

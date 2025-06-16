@@ -42,12 +42,9 @@
 		style:gap="10px"
 		style:padding="20px"
 	>
-		<div
-			style:height="50px"
-			style:width="50px"
-			style:background="white"
-			style:border-radius="50%"
-		></div>
+		<div style:height="50px" style:width="50px" style:background="white" style:border-radius="50%">
+			V2
+		</div>
 		<div style:display="flex" style:flex-direction="column">
 			<a href="./" style:font-size="1.2rem" style:color="#def">Correo → davidvalle.rst@gmail.com</a>
 			<a href="./" style:font-size="1.2rem" style:color="#def">Correo → davidvallerst</a>
@@ -131,7 +128,7 @@
 		>
 	</h3>
 </div>
-<footer style:height="100px">V1</footer>
+<footer style:height="100px"></footer>
 
 <style>
 	#hero {

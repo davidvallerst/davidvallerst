@@ -131,7 +131,7 @@
 		>
 	</h3>
 </div>
-<footer style:height="100px">V0</footer>
+<footer style:height="100px">V1</footer>
 
 <style>
 	#hero {

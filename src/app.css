@@ -22,7 +22,7 @@ html {
 	);
 	transition: background, 20ms;
 	background-attachment: fixed;
-	background-size: 105vh 100%;
+	background-size: 100% 105vh;
 }
 
 h1 {

@@ -15,7 +15,7 @@ html {
 	font-size: clamp(12px, 1vw + 0.3rem, 16px);
 	scroll-behavior: smooth;
 	background-color: var(--starting-gradient-color);
-	background-image: linear-gradient(
+	background: linear-gradient(
 		140deg,
 		var(--starting-gradient-color) 10%,
 		var(--ending-gradient-color)

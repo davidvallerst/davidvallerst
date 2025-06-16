@@ -49,7 +49,7 @@
 			style:color="#222"
 			style:border-radius="50%"
 		>
-			V2
+			V3
 		</div>
 		<div style:display="flex" style:flex-direction="column">
 			<a href="./" style:font-size="1.2rem" style:color="#def">Correo → davidvalle.rst@gmail.com</a>

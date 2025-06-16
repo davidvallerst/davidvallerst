@@ -89,8 +89,8 @@
 		<TechIconCard iconUrl="./icons/git.svg" />
 	</div>
 </section>
+<div style:height="4rem"></div>
 <section style:background="#eee" style:color="#333" style:padding="2rem 0rem 4rem 0rem">
-	<div class="hr"></div>
 	<h2 style:margin-inline="auto" style:padding-inline="1rem" style:text-align="center">
 		Bienvenid@ a mi Portafolio
 	</h2>

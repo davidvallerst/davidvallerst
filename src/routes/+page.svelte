@@ -142,7 +142,12 @@
 		content: ' />';
 	}
 	#icons {
-		grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+		grid-template-columns: repeat(auto-fill, minmax(7rem, 1fr));
+	}
+	@media (min-width: 900px) {
+		#icons {
+			grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+		}
 	}
 	p {
 		font-size: 1.4rem;

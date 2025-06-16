@@ -4,6 +4,7 @@
 	--starting-gradient-color: #010117;
 	--ending-gradient-color: #763885;
 	--last-gradient-color: #cc7eee;
+	color: #e4e9ea;
 }
 
 html {
@@ -21,12 +22,7 @@ html {
 	);
 	transition: background, 20ms;
 	background-attachment: fixed;
-	background-size: cover;
-}
-body {
-	position: relative;
-	min-height: 100dvh;
-	color: #e4e9ea;
+	background-size: 105vh 100%;
 }
 
 h1 {
@@ -49,10 +45,6 @@ a {
 }
 li {
 	font-size: 1.2rem;
-}
-li::before {
-	content: 'o';
-	margin-inline: 0 1rem;
 }
 
 .hr {

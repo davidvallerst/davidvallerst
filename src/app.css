@@ -21,8 +21,6 @@ html {
 		var(--ending-gradient-color)
 	);
 	transition: background, 20ms;
-	background-attachment: fixed;
-	background-size: 100% 105vh;
 }
 
 h1 {

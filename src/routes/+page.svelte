@@ -89,17 +89,12 @@
 		<TechIconCard iconUrl="./icons/git.svg" />
 	</div>
 </section>
-<section style:margin="2rem 0rem 6rem 0rem">
+<section style:background="#eee" style:color="#333" style:padding="2rem 0rem 4rem 0rem">
 	<div class="hr"></div>
-	<h2
-		style:margin-block="3rem 6rem"
-		style:margin-inline="auto"
-		style:padding-inline="1rem"
-		style:text-align="center"
-	>
+	<h2 style:margin-inline="auto" style:padding-inline="1rem" style:text-align="center">
 		Bienvenid@ a mi Portafolio
 	</h2>
-	<div style:margin-top="2rem" style:padding-inline="6rem">
+	<div style:margin-top="4rem" style:padding-inline="6rem">
 		<p>Mi nombre es Elvis David Hernandez Valle</p>
 		<p>
 			Soy desarrollador web full stack con experiencia en distintos proyectos que me han ayudado a
@@ -147,7 +142,7 @@
 		content: ' />';
 	}
 	#icons {
-		grid-template-columns: repeat(auto-fill, minmax(7rem, 1fr));
+		grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
 	}
 	p {
 		font-size: 1.4rem;

@@ -42,7 +42,13 @@
 		style:gap="10px"
 		style:padding="20px"
 	>
-		<div style:height="50px" style:width="50px" style:background="white" style:border-radius="50%">
+		<div
+			style:height="50px"
+			style:width="50px"
+			style:background="white"
+			style:color="#222"
+			style:border-radius="50%"
+		>
 			V2
 		</div>
 		<div style:display="flex" style:flex-direction="column">

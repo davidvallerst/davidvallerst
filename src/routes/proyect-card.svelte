@@ -28,7 +28,6 @@
 			/* background: var(--color-slate-900); */
 			background: #0007;
 			background: linear-gradient(to right, #0007, #000);
-
 			margin-inline: auto;
 			font-size: large;
 			padding: 0.8rem;
@@ -39,7 +38,8 @@
 			cursor: pointer;
 			border-radius: 0.4rem;
 			padding: 16px;
-			background: linear-gradient(to right, #0007, #000);
+			background: linear-gradient(to right, #0007, #271f56);
+			border-right: 2px solid #000;
 			display: flex;
 			align-items: center;
 			justify-content: end;

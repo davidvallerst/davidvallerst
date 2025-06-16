@@ -102,7 +102,13 @@
 		</p>
 	</div>
 </section>
-<section style:margin-top="3rem">
+<section
+	style:padding-top="3rem"
+	style="background:linear-gradient(320deg, var(--starting-gradient-color)
+	,var(--ending-gradient-color) 50%);
+	transition: background, 20ms;
+	"
+>
 	<div class="hr"></div>
 	<h2
 		style:margin-left="4rem"
@@ -119,16 +125,17 @@
 		<ProyectCard />
 		<ProyectCard />
 	</div>
+	<div style:height="2rem"></div>
+	<div class="cv-section p-16">
+		<p>Para mas informacion</p>
+		<h3>
+			Descargar CV ->
+			<a class="text-slate-300" style:font-size="2rem" style:font-weight="bold" href="./"
+				>curriculum vitae Elvis D Hernandez Valle</a
+			>
+		</h3>
+	</div>
 </section>
-<div class="cv-section p-16">
-	<p>Para mas informacion</p>
-	<h3>
-		Descargar CV ->
-		<a class="text-slate-300" style:font-size="2rem" style:font-weight="bold" href="./"
-			>curriculum vitae Elvis D Hernandez Valle</a
-		>
-	</h3>
-</div>
 <footer
 	style:height="70px"
 	style:padding="20px"

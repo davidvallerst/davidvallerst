@@ -17,15 +17,17 @@
 	.highlight-container {
 		display: flex;
 		flex-direction: column;
-		padding: 1.2rem;
+		margin: 1.2rem;
 		margin-top: 1rem;
 		gap: 1rem;
 		width: 32rem;
+		border: 4px solid #66e;
+		border-radius: 5rem;
 
 		.h-main {
 			/* background: var(--color-slate-900); */
 			background: #0007;
-			backdrop-filter: blur(10px);
+			background: linear-gradient(to right, #0007, #000);
 
 			margin-inline: auto;
 			font-size: large;
@@ -37,7 +39,7 @@
 			cursor: pointer;
 			border-radius: 0.4rem;
 			padding: 16px;
-			background: #0007;
+			background: linear-gradient(to right, #0007, #000);
 			display: flex;
 			align-items: center;
 			justify-content: end;

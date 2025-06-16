@@ -18,7 +18,7 @@ html {
 	background: linear-gradient(
 		140deg,
 		var(--starting-gradient-color) 0%,
-		var(--ending-gradient-color) 30%
+		var(--ending-gradient-color) 20%
 	);
 	transition: background, 20ms;
 }

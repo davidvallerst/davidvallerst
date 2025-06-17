@@ -2,7 +2,7 @@
 @import 'primeicons/primeicons.css';
 :root {
 	--starting-gradient-color: #66e;
-	--ending-gradient-color: #292929;
+	--ending-gradient-color: #0f0f2e;
 	--last-gradient-color: #cc7eee;
 	color: #e4e9ea;
 }

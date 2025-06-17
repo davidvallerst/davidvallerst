@@ -1,35 +1,6 @@
 <script lang="ts">
 	import ProyectCard from './proyect-card.svelte';
 	import TechIconCard from './tech-icon-card.svelte';
-
-	let r = 0;
-	let g = 0;
-	let b = 0;
-	let objR = 255;
-	let objG = 255;
-	let objB = 255;
-	// $effect(() => {
-	// 	function getRGB(key: string) {
-	// 		return getComputedStyle(document.documentElement).getPropertyValue(key).replaceAll('#', '');
-	// 	}
-	// 	const [rn, gn, bn] = getRGB('--ending-gradient-color');
-	// 	const [rl, gl, bl] = getRGB('--last-gradient-color');
-	// 	r = parseInt(rn);
-	// 	g = parseInt(gn);
-	// 	b = parseInt(bn);
-	// 	objR = parseInt(rl);
-	// 	objG = parseInt(gl);
-	// 	objB = parseInt(bl);
-	// });
-	// function onScrollChangeColor() {
-	// 	const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
-
-	// 	const scrollRatio = window.scrollY / maxScroll;
-	// 	const rn = Math.round(r + (objR - r) * scrollRatio);
-	// 	const gn = Math.round(g + (objG - g) * scrollRatio);
-	// 	const bn = Math.round(b + (objB - b) * scrollRatio);
-	// 	document.body.style.setProperty('--ending-gradient-color', `rgb(${rn},${gn},${bn})`);
-	// }
 </script>
 
 <!-- <svelte:window on:scroll={onScrollChangeColor} /> -->
@@ -37,23 +8,20 @@
 	<header
 		style:display="flex"
 		style:align-items="center"
-		style:backdrop-filter="blur(100px)"
-		style:background="#0007"
+		style:background="#fff"
 		style:gap="10px"
 		style:padding="20px"
+		style:color="#222"
 	>
 		<div
 			style:height="50px"
 			style:width="50px"
-			style:background="white"
-			style:color="#222"
+			style:background="black"
 			style:border-radius="50%"
-		>
-			V3
-		</div>
+		></div>
 		<div style:display="flex" style:flex-direction="column">
-			<a href="./" style:font-size="1.2rem" style:color="#def">Correo → davidvalle.rst@gmail.com</a>
-			<a href="./" style:font-size="1.2rem" style:color="#def">Correo → davidvallerst</a>
+			<a href="./" style:font-size="1.2rem">Correo → davidvalle.rst@gmail.com</a>
+			<a href="./" style:font-size="1.2rem">Correo → davidvallerst</a>
 		</div>
 	</header>
 	<h1
@@ -74,7 +42,6 @@
 		style:max-width="max(60rem, 50vw)"
 		style:margin="auto"
 		style:justify-content="center"
-		style:align-items="center"
 		style:margin-top="3rem"
 		style:padding-inline="1rem"
 	>
@@ -90,8 +57,20 @@
 	</div>
 </section>
 <div style:height="2rem"></div>
-<section style:background="#fafeff" style:color="#333" style:padding="2rem 0rem 4rem 0rem">
-	<h2 style:margin-inline="auto" style:padding-inline="1rem" style:text-align="center">
+<section
+	style:background="#fafeff"
+	style:margin-inline="10vw"
+	style:border-radius="20px"
+	style:color="#333"
+	style:padding="2rem 0rem 4rem 0rem"
+>
+	<h2
+		style:margin-inline="auto"
+		style:text-decoration="underline"
+		style:padding-inline="1rem"
+		style:text-align="center"
+		style:text-decoration-color="var(--starting-gradient-color)"
+	>
 		Bienvenid@ a mi Portafolio
 	</h2>
 	<div style:margin-top="4rem" style:padding-inline="6rem">

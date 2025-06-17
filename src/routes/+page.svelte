@@ -35,7 +35,7 @@
 		<br />
 		Desarrollador Web full stack
 	</h1>
-	<div style:height="2rem"></div>
+	<div style:height="4rem"></div>
 	<div
 		style:background="#fafeff"
 		style:margin-inline="10vw"
@@ -52,7 +52,7 @@
 		>
 			Bienvenid@ a mi Portafolio
 		</h2>
-		<div style:margin-top="4rem" style:padding-inline="2rem">
+		<div style:margin-top="2rem" style:padding-inline="2rem">
 			<p>Mi nombre es Elvis David Hernandez Valle</p>
 			<p>
 				Soy desarrollador web full stack con experiencia en distintos proyectos que me han ayudado a

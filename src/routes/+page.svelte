@@ -36,7 +36,7 @@
 		Desarrollador Web full stack
 	</h1>
 	<div style:height="2rem"></div>
-	<section
+	<div
 		style:background="#fafeff"
 		style:margin-inline="10vw"
 		style:border-radius="20px"
@@ -52,14 +52,16 @@
 		>
 			Bienvenid@ a mi Portafolio
 		</h2>
-		<div style:margin-top="4rem" style:padding-inline="6rem">
+		<div style:margin-top="4rem" style:padding-inline="2rem">
 			<p>Mi nombre es Elvis David Hernandez Valle</p>
 			<p>
 				Soy desarrollador web full stack con experiencia en distintos proyectos que me han ayudado a
 				forjar habilidades en el desarrollo de software
 			</p>
 		</div>
-	</section>
+	</div>
+</section>
+<section>
 	<div
 		id="icons"
 		style:display="grid"
@@ -67,7 +69,7 @@
 		style:max-width="max(60rem, 50vw)"
 		style:margin="auto"
 		style:justify-content="center"
-		style:margin-top="3rem"
+		style:margin-top="1rem"
 		style:padding-inline="1rem"
 	>
 		<TechIconCard iconUrl="./icons/angular.svg" />
@@ -89,7 +91,6 @@
 	transition: background, 20ms;
 	"
 >
-	<div class="hr"></div>
 	<h2
 		style:margin-left="4rem"
 		style:margin-block="3rem"

@@ -21,14 +21,14 @@
 		margin-top: 1rem;
 		gap: 1rem;
 		width: 32rem;
-		border: 4px solid #66e;
-		box-shadow: 0px 0px 20px 0px #66e;
-		border-radius: 5rem;
+		background: #fff;
+		border-radius: 0.5rem;
 
 		.h-main {
 			/* background: var(--color-slate-900); */
 			/* background: #0007; */
-			background: linear-gradient(to right, #000, #000);
+			background: #fff;
+			color: #223;
 			margin-inline: auto;
 			font-size: large;
 			padding: 0.8rem;
@@ -39,7 +39,7 @@
 			cursor: pointer;
 			border-radius: 0.4rem;
 			padding: 16px;
-			background: linear-gradient(to right, #000, #271f56);
+			background: linear-gradient(to right, #fff, #271f56);
 			display: flex;
 			align-items: center;
 			justify-content: end;

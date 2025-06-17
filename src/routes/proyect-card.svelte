@@ -38,6 +38,7 @@
 		.details-button {
 			cursor: pointer;
 			border-radius: 0.4rem;
+			border-top-right-radius: 0;
 			padding: 16px;
 			background: linear-gradient(to right, #fff, #271f56);
 			display: flex;
@@ -46,6 +47,11 @@
 			i {
 				font-size: large;
 			}
+		}
+	}
+	@media (max-width: 576px) {
+		.highlight-container {
+			margin-inline: 10vw;
 		}
 	}
 </style>

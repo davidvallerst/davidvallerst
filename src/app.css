@@ -2,7 +2,7 @@
 @import 'primeicons/primeicons.css';
 :root {
 	--starting-gradient-color: #66e;
-	--ending-gradient-color: #010117;
+	--ending-gradient-color: #292929;
 	--last-gradient-color: #cc7eee;
 	color: #e4e9ea;
 }
@@ -14,7 +14,6 @@ html {
 	font-style: normal;
 	font-size: clamp(12px, 1vw + 0.3rem, 16px);
 	scroll-behavior: smooth;
-	background-color: var(--starting-gradient-color);
 	background: linear-gradient(
 		140deg,
 		var(--starting-gradient-color) 0%,

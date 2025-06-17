@@ -35,6 +35,31 @@
 		<br />
 		Desarrollador Web full stack
 	</h1>
+	<div style:height="2rem"></div>
+	<section
+		style:background="#fafeff"
+		style:margin-inline="10vw"
+		style:border-radius="20px"
+		style:color="#333"
+		style:padding="2rem 0rem 4rem 0rem"
+	>
+		<h2
+			style:margin-inline="auto"
+			style:text-decoration="underline"
+			style:padding-inline="1rem"
+			style:text-align="center"
+			style:text-decoration-color="var(--starting-gradient-color)"
+		>
+			Bienvenid@ a mi Portafolio
+		</h2>
+		<div style:margin-top="4rem" style:padding-inline="6rem">
+			<p>Mi nombre es Elvis David Hernandez Valle</p>
+			<p>
+				Soy desarrollador web full stack con experiencia en distintos proyectos que me han ayudado a
+				forjar habilidades en el desarrollo de software
+			</p>
+		</div>
+	</section>
 	<div
 		id="icons"
 		style:display="grid"
@@ -56,31 +81,7 @@
 		<TechIconCard iconUrl="./icons/git.svg" />
 	</div>
 </section>
-<div style:height="2rem"></div>
-<section
-	style:background="#fafeff"
-	style:margin-inline="10vw"
-	style:border-radius="20px"
-	style:color="#333"
-	style:padding="2rem 0rem 4rem 0rem"
->
-	<h2
-		style:margin-inline="auto"
-		style:text-decoration="underline"
-		style:padding-inline="1rem"
-		style:text-align="center"
-		style:text-decoration-color="var(--starting-gradient-color)"
-	>
-		Bienvenid@ a mi Portafolio
-	</h2>
-	<div style:margin-top="4rem" style:padding-inline="6rem">
-		<p>Mi nombre es Elvis David Hernandez Valle</p>
-		<p>
-			Soy desarrollador web full stack con experiencia en distintos proyectos que me han ayudado a
-			forjar habilidades en el desarrollo de software
-		</p>
-	</div>
-</section>
+
 <section
 	style:padding-top="3rem"
 	style="background:linear-gradient(320deg, #66e

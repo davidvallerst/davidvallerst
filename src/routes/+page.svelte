@@ -1,5 +1,6 @@
 <script lang="ts">
 	import ProyectCard from './proyect-card.svelte';
+	import Stack from './stack.svelte';
 	import TechIconCard from './tech-icon-card.svelte';
 </script>
 
@@ -61,6 +62,7 @@
 		</div>
 	</div>
 </section>
+<Stack />
 <section>
 	<div
 		id="icons"

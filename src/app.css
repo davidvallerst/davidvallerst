@@ -6,6 +6,11 @@
 	--last-gradient-color: #cc7eee;
 	color: #e4e9ea;
 }
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 
 html {
 	color-scheme: only light;

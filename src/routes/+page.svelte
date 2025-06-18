@@ -20,8 +20,19 @@
 			style:border-radius="50%"
 		></div>
 		<div style:display="flex" style:flex-direction="column">
-			<a href="./" style:font-size="1.2rem">Correo → davidvalle.rst@gmail.com</a>
-			<a href="./" style:font-size="1.2rem">Correo → davidvallerst</a>
+			<a
+				href="./"
+				style:font-size="1.2rem"
+				style:text-decoration="underline"
+				style:text-decoration-color="var(--starting-gradient-color)"
+				>Correo → davidvalle.rst@gmail.com</a
+			>
+			<a
+				href="./"
+				style:font-size="1.2rem"
+				style:text-decoration="underline"
+				style:text-decoration-color="var(--starting-gradient-color)">Correo → davidvallerst</a
+			>
 		</div>
 	</header>
 	<h1
@@ -45,9 +56,9 @@
 	>
 		<h2
 			style:margin-inline="auto"
-			style:text-decoration="underline"
 			style:padding-inline="1rem"
 			style:text-align="center"
+			style:text-decoration="underline"
 			style:text-decoration-color="var(--starting-gradient-color)"
 		>
 			Bienvenid@ a mi Portafolio

@@ -56,14 +56,14 @@
 	{/each}
 
 	<div class="controls">
-		<button onclick={prev}>⬅ Anterior</button>
-		<button onclick={next}>Siguiente ➡</button>
+		<button onclick={prev}><i class="pi pi-angle-left"></i> Anterior</button>
+		<button onclick={next}>Siguiente <i class="pi pi-angle-right"></i></button>
 	</div>
 </div>
 
 <style>
 	.carousel-container {
-		background-color: #fff;
+		background-color: var(--light-bg-color);
 		width: 79vw;
 		height: 500px;
 		padding: 40px;

@@ -3,7 +3,7 @@
 
 <div class="highlight-container">
 	<div class="h-main" style:padding="2rem">
-		<h2>Proyecto 3</h2>
+		<h3>Nombre del Proyecto</h3>
 		Lorem ipsum dolor sit amet consectetur... Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 	</div>
 
@@ -21,7 +21,7 @@
 		margin-top: 1rem;
 		gap: 1rem;
 		width: 32rem;
-		background: #fff;
+		background: var(--light-bg-color);
 		border-radius: 0.5rem;
 
 		.h-main {

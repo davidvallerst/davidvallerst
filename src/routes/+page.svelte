@@ -8,7 +8,7 @@
 	<header
 		style:display="flex"
 		style:align-items="center"
-		style:background="#fff"
+		style:background="var(--light-bg-color)"
 		style:gap="10px"
 		style:padding="20px"
 		style:color="#222"
@@ -37,7 +37,7 @@
 	</h1>
 	<div style:height="4rem"></div>
 	<div
-		style:background="#fafeff"
+		style:background="var(--light-bg-color)"
 		style:margin-inline="10vw"
 		style:border-radius="20px"
 		style:color="#333"
@@ -61,6 +61,9 @@
 		</div>
 	</div>
 </section>
+<h3 style:text-align="center" style:padding-inline="2rem">
+	He trabajado con multiples stacks de desarrollo, sintiendome mas preparado con algunos
+</h3>
 <Stack />
 <!-- <section>
 	<div
@@ -123,7 +126,7 @@
 	style:padding="20px"
 	style:display="flex"
 	style:align-items="center"
-	style:background="#fafeff"
+	style:background="var(--light-bg-color)"
 	style:color="#222"
 >
 	Made with <div style:font-size="2rem" style:margin-inline="0.5rem">♥</div>

@@ -31,13 +31,16 @@
 		autoplayInterval.refresh();
 	}
 	let autoplay = true;
-	let intervalDuration = 8000; // 3 segundos
+	let intervalDuration = 3000; // 3 segundos
 
 	let autoplayInterval = setInterval(() => {
-		if (autoplay) {
-			next();
-		}
+		setTimeout(() => {
+			if (autoplay) {
+				next();
+			}
+		}, intervalDuration);
 	}, intervalDuration);
+
 	// Limpia el intervalo cuando el componente se destruye
 	onDestroy(() => {
 		clearInterval(autoplayInterval);
@@ -55,7 +58,7 @@
 		/>
 	{/each}
 
-	<div class="controls">
+	<div class="controls" style:display="none">
 		<button onclick={prev}><i class="pi pi-angle-left"></i> Anterior</button>
 		<button onclick={next}>Siguiente <i class="pi pi-angle-right"></i></button>
 	</div>

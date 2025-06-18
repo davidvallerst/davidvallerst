@@ -14,16 +14,14 @@
 <style>
 	.card-slide {
 		text-align: center;
-		padding: 1rem;
 		box-sizing: border-box;
 	}
 
 	.card-slide img {
-		width: 100%;
+		width: 60%;
 		max-width: 100%;
+		margin-inline: auto;
 		height: auto;
-		border-radius: 8px;
-		margin-bottom: 1rem;
 	}
 
 	.card-slide h3 {

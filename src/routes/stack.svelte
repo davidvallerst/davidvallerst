@@ -29,7 +29,7 @@
 		currentIndex = (currentIndex - 1 + slides.length) % slides.length;
 	}
 	let autoplay = true;
-	let intervalDuration = 3000; // 3 segundos
+	let intervalDuration = 8000; // 3 segundos
 
 	let autoplayInterval = setInterval(() => {
 		if (autoplay) {
@@ -64,7 +64,7 @@
 	.carousel-container {
 		background-color: #fff;
 		width: 79vw;
-		min-height: 550px;
+		height: 500px;
 		padding: 40px;
 		border-radius: 12px;
 		box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
@@ -82,11 +82,11 @@
 
 	.controls {
 		position: absolute;
-		margin-top: 30px;
 		bottom: 14px;
 		display: flex;
-		gap: 15px;
-		justify-content: center;
+		width: 100%;
+		justify-content: space-between;
+		padding-inline: 1rem;
 	}
 
 	button {
@@ -103,27 +103,5 @@
 
 	button:hover {
 		background-color: var(--ending-gradient-color);
-	}
-
-	.indicators {
-		position: absolute;
-		top: 0;
-		margin-top: 20px;
-		display: flex;
-		gap: 6px;
-		justify-content: center;
-	}
-
-	.indicator {
-		width: 10px;
-		height: 10px;
-		border-radius: 0.5rem;
-		background-color: #ccc;
-		cursor: pointer;
-		transition: background-color 0.3s ease;
-	}
-
-	.indicator.active {
-		background-color: var(--starting-gradient-color);
 	}
 </style>

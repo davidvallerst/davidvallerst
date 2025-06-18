@@ -8,17 +8,17 @@
 		{
 			title: 'Bienvenido al Carrusel',
 			description: 'Este es un ejemplo de una tarjeta con imagen, título y descripción.',
-			imageUrl: 'https://picsum.photos/id/1015/600/300'
+			imageUrl: './icons/angular.svg'
 		},
 		{
 			title: 'Explora más',
 			description: 'Puedes agregar cualquier tipo de contenido dentro del carrusel.',
-			imageUrl: 'https://picsum.photos/id/1016/600/300'
+			imageUrl: './icons/golang.svg'
 		},
 		{
 			title: 'Diseño moderno',
 			description: 'Este carrusel se adapta fácilmente a cualquier diseño responsive.',
-			imageUrl: 'https://picsum.photos/id/1019/600/300'
+			imageUrl: './icons/docker.svg'
 		}
 	];
 	function next() {

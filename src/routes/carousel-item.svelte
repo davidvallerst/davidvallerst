@@ -19,7 +19,7 @@
 
 	.card-slide img {
 		width: 60%;
-		max-width: 100%;
+		max-width: 300px;
 		margin-inline: auto;
 		height: auto;
 	}

@@ -1,7 +1,6 @@
 <script lang="ts">
 	import ProyectCard from './proyect-card.svelte';
 	import Stack from './stack.svelte';
-	import TechIconCard from './tech-icon-card.svelte';
 </script>
 
 <!-- <svelte:window on:scroll={onScrollChangeColor} /> -->
@@ -63,7 +62,7 @@
 	</div>
 </section>
 <Stack />
-<section>
+<!-- <section>
 	<div
 		id="icons"
 		style:display="grid"
@@ -84,7 +83,7 @@
 		<TechIconCard iconUrl="./icons/docker.svg" />
 		<TechIconCard iconUrl="./icons/git.svg" />
 	</div>
-</section>
+</section> -->
 
 <section
 	style:padding-top="3rem"
@@ -109,7 +108,7 @@
 		<ProyectCard />
 	</div>
 	<div style:height="2rem"></div>
-	<div class="cv-section p-16">
+	<div class="cv-section" style:padding="4rem">
 		<p>Para mas informacion</p>
 		<h3>
 			Descargar CV ->

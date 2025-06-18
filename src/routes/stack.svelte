@@ -23,10 +23,12 @@
 	];
 	function next() {
 		currentIndex = (currentIndex + 1) % slides.length;
+		autoplayInterval.refresh();
 	}
 
 	function prev() {
 		currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+		autoplayInterval.refresh();
 	}
 	let autoplay = true;
 	let intervalDuration = 8000; // 3 segundos
@@ -36,7 +38,6 @@
 			next();
 		}
 	}, intervalDuration);
-
 	// Limpia el intervalo cuando el componente se destruye
 	onDestroy(() => {
 		clearInterval(autoplayInterval);

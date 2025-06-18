@@ -7,6 +7,7 @@
 
 <div class="card-slide" class:active>
 	<img src={imageUrl} alt={title} />
+	<div style:height="2rem"></div>
 	<h3>{title}</h3>
 	<p>{description}</p>
 </div>

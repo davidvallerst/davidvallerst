@@ -62,7 +62,8 @@
 	</div>
 </section>
 <h3 style:text-align="center" style:padding-inline="2rem">
-	He trabajado con multiples stacks de desarrollo, sintiendome mas preparado con algunos
+	He trabajado con diversas tecnologias y stacks de desarrollo usandolas para dar solucion a
+	diversos problemas en proyectos reales
 </h3>
 <Stack />
 <!-- <section>

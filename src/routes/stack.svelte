@@ -1,43 +1,62 @@
 <script lang="ts">
-	let currentIndex = 0;
-	const texts = [
-		'La vida es lo que pasa mientras estás ocupado haciendo otros planes.',
-		'No intentes ser una persona de éxito. Sé una persona de valor.',
-		'La única forma de hacer un gran trabajo es amar lo que haces.',
-		'La felicidad no es algo hecho. Viene de tus propias acciones.',
-		'Piensa en grande y no mires nunca hacia atrás.'
-	];
+	import { onDestroy } from 'svelte';
+	import CarouselItem from './carousel-item.svelte';
 
+	let currentIndex = 0;
+
+	const slides = [
+		{
+			title: 'Bienvenido al Carrusel',
+			description: 'Este es un ejemplo de una tarjeta con imagen, título y descripción.',
+			imageUrl: 'https://picsum.photos/id/1015/600/300'
+		},
+		{
+			title: 'Explora más',
+			description: 'Puedes agregar cualquier tipo de contenido dentro del carrusel.',
+			imageUrl: 'https://picsum.photos/id/1016/600/300'
+		},
+		{
+			title: 'Diseño moderno',
+			description: 'Este carrusel se adapta fácilmente a cualquier diseño responsive.',
+			imageUrl: 'https://picsum.photos/id/1019/600/300'
+		}
+	];
 	function next() {
-		currentIndex = (currentIndex + 1) % texts.length;
+		currentIndex = (currentIndex + 1) % slides.length;
 	}
 
 	function prev() {
-		currentIndex = (currentIndex - 1 + texts.length) % texts.length;
+		currentIndex = (currentIndex - 1 + slides.length) % slides.length;
 	}
+	let autoplay = true;
+	let intervalDuration = 3000; // 3 segundos
+
+	let autoplayInterval = setInterval(() => {
+		if (autoplay) {
+			next();
+		}
+	}, intervalDuration);
+
+	// Limpia el intervalo cuando el componente se destruye
+	onDestroy(() => {
+		clearInterval(autoplayInterval);
+	});
 </script>
 
+<!-- Carrusel -->
 <div class="carousel-container">
-	{#each texts as text, index}
-		<div class="text-slide" class:active={index === currentIndex}>
-			{text}
-		</div>
+	{#each slides as slide, index}
+		<CarouselItem
+			title={slide.title}
+			description={slide.description}
+			imageUrl={slide.imageUrl}
+			active={index === currentIndex}
+		/>
 	{/each}
 
 	<div class="controls">
 		<button onclick={prev}>⬅ Anterior</button>
 		<button onclick={next}>Siguiente ➡</button>
-	</div>
-
-	<div class="indicators">
-		{#each texts as _, i}
-			<button
-				class="indicator"
-				class:active={i === currentIndex}
-				onclick={() => (currentIndex = i)}
-				aria-label="Ir a slide {i + 1}"
-			></button>
-		{/each}
 	</div>
 </div>
 
@@ -61,19 +80,6 @@
 		text-align: center;
 	}
 
-	.text-slide {
-		width: 100%;
-		font-size: 1.5rem;
-		line-height: 1.6;
-		opacity: 0;
-		transition: opacity 0.6s ease-in-out;
-		position: absolute;
-	}
-
-	.text-slide.active {
-		opacity: 1;
-	}
-
 	.controls {
 		position: absolute;
 		margin-top: 30px;
@@ -86,7 +92,7 @@
 	button {
 		padding: 10px 18px;
 		font-size: 1rem;
-		background-color: #0077cc;
+		background-color: var(--starting-gradient-color);
 		color: white;
 		border: none;
 		border-radius: 6px;
@@ -96,7 +102,7 @@
 	}
 
 	button:hover {
-		background-color: #005fa3;
+		background-color: var(--ending-gradient-color);
 	}
 
 	.indicators {
@@ -111,13 +117,13 @@
 	.indicator {
 		width: 10px;
 		height: 10px;
-		border-radius: 2rem;
+		border-radius: 0.5rem;
 		background-color: #ccc;
 		cursor: pointer;
 		transition: background-color 0.3s ease;
 	}
 
 	.indicator.active {
-		background-color: #0077cc;
+		background-color: var(--starting-gradient-color);
 	}
 </style>
